@@ -1,0 +1,48 @@
+﻿
+@{ ViewBag.Title = "Index"; }
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Đăng nhập vào website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAFBT8AEVwoQAcWowAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACARAgAAAAACIAACIAAAACIiACIiAAAAIgIAICIAAAAiAiIgIgAAACICIiAiAAAAAiIiIiAAAAAgIiIiAgAAACMAAAAyAAAAIyAAAjIAAAAiIAACIgAAACIgAAIiAAAAIiAAAyIAAAAAAAAAAAAAAAAAAAAAAADwPwAA4B8AAMAPAACABwAAgAcAAIAHAACABwAAgAcAAIAHAACABwAAgwcAAIMHAACDBwAAgwcAAMePAAD//wAA" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="~/Content/login.css">
+    <link rel="stylesheet" href="/Home">
+    <link rel="stylesheet" href="/login">
+    <link rel="stylesheet" href="~/Content/createlogin.css">
+
+</head>
+<body>
+    <header>
+    </header>
+
+    <form action="">
+        <div class="container">
+            <h1>TẠO TÀI KHOẢN</h1>
+            <p>Xin hãy nhập biểu mẫu bên dưới để đăng ký.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Nhập Email" name="email" required>
+            <label for="psw"><b>Mật Khẩu</b></label>
+            <input type="password" placeholder="Nhập Mật Khẩu" name="psw" required>
+            <label for="psw-repeat"><b>Nhập Lại Mật Khẩu</b></label>
+            <input type="password" placeholder="Nhập Lại Mật Khẩu" name="psw-repeat" required>
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Nhớ Đăng Nhập
+            </label>
+            <div class="clearfix">
+                <button type="submit" class="signupbtn">ĐỒNG Ý</button>
+            </div>
+        </div>
+    </form>
+
+    <footer>
+    </footer>
+</body>
+
+</html>
