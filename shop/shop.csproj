@@ -56,6 +56,8 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -127,10 +129,17 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="code\LoginModel.cs" />
+    <Compile Include="code\SessionHelper.cs" />
+    <Compile Include="code\UserSession.cs" />
     <Compile Include="Controllers\createloginController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\loginController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
+    <Compile Include="Controllers\TinTucController.cs" />
+    <Compile Include="framework\Account.cs" />
+    <Compile Include="framework\Model1.cs" />
+    <Compile Include="framework\NguoiDung.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -154,17 +163,30 @@
     <Content Include="asset\image\places\place1.jpg" />
     <Content Include="asset\image\places\place2.jpg" />
     <Content Include="asset\image\places\place3.jpg" />
-    <Content Include="asset\image\slider\conchobibenh.jpeg" />
-    <Content Include="asset\image\slider\phongkham2.jpg" />
     <Content Include="asset\image\slider\phongkham3.jpg" />
     <Content Include="asset\image\slider\phongkhampet.jpg" />
-    <Content Include="asset\image\slider\slider1.jpg" />
+    <Content Include="asset\image\tintuc\bi-do.jpg" />
+    <Content Include="asset\image\tintuc\cat.jpg" />
+    <Content Include="asset\image\tintuc\che-do-dinh-duong-cho-meo-con1.jpg" />
+    <Content Include="asset\image\tintuc\che-do-dinh-duong-cho-meo-con2.jpg" />
+    <Content Include="asset\image\tintuc\dog.jpg" />
+    <Content Include="asset\image\tintuc\khoai-lang.jpg" />
+    <Content Include="asset\image\tintuc\Meo-bi-cam-lanh-phai-lam-sao-1.jpg" />
+    <Content Include="asset\image\tintuc\Meo-bi-cam-lanh-phai-lam-sao-2.jpg" />
+    <Content Include="asset\image\tintuc\Meo-bi-cam-lanh-phai-lam-sao-3 %281%29.jpg" />
+    <Content Include="asset\image\tintuc\Meo-bi-cam-lanh-phai-lam-sao-3.jpg" />
+    <Content Include="asset\image\tintuc\nhung-luu-y-cham-nuoi-thu-cung-khi-nha-co-tre-nho.jpg" />
+    <Content Include="asset\image\tintuc\nhung-luu-y-cham-nuoi-thu-cung-khi-nha-co-tre-nho1.jpg" />
+    <Content Include="asset\image\tintuc\sua-chua.jpg" />
+    <Content Include="asset\image\tintuc\tiem-vaccine-cho-cho-01.jpg" />
+    <Content Include="asset\image\tintuc\tiem-vaccine-cho-cho.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\login.css" />
     <Content Include="Content\createlogin.css" />
+    <Content Include="Content\TinTuc.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\themify-icons\demo-files\demo.css" />
@@ -561,6 +583,11 @@
     <Content Include="Views\login\Index.cshtml" />
     <Content Include="Views\createlogin\Index.cshtml" />
     <Content Include="Views\Shop\Index.cshtml" />
+    <Content Include="Views\TinTuc\Index.cshtml" />
+    <Content Include="Views\TinTuc\TiemNgua.cshtml" />
+    <Content Include="Views\TinTuc\LuuY.cshtml" />
+    <Content Include="Views\TinTuc\ThucPham.cshtml" />
+    <Content Include="Views\TinTuc\DieuTri.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

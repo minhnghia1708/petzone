@@ -1,0 +1,101 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #20B2AA;
+    line-height: 1.2;
+}
+#wapper {
+    max-width: 1000px;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+h1 {
+    padding: 20px 0px;
+    text-align: center;
+}
+ul.list-post li {
+    display: flex
+}
+ul.ist-post li .post-thumb {
+    flex: 0 0 30%;
+    padding-right: 15px;
+}
+ul.list-post li .post-thumb img {
+    max-width: 100%;
+}
+ul.list-post .post-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    padding-bottom: 10px;
+    transition: color 0.3s;
+}
+ul.list-post li {
+    margin-bottom: 20px;
+}
+ul.list-post li:hover .post-title {
+    color: #971928;
+}
+ul.list-post .post-excerpt {
+    color: #5b5b5b;
+}
+.img-cat{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.more-info{
+    margin-top: 40px;
+}
+.post-title{
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+}
+.comtrang{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.caption{
+    width: 488px;
+    padding: 0.4em;
+    font-size: .9em;
+    background: rgba(0,0,0,.05);
+    font-style: italic;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #708090;
+
+}
+.back{
+    float: right;
+    color: #20B2AA;
+}
+.back:hover{
+    color: red; 
+}
+.text-first{
+    color: #888888;
+}

@@ -132,7 +132,7 @@ html {
     }
 
     #nav li a {
-        text-decoration: none;
+        
         line-height: 46px;
         padding: 0 24px;
         display: block;
@@ -140,6 +140,7 @@ html {
 
     #nav .subnav {
         list-style-type: none;
+
     }
 
     #nav li:hover .subnav {
@@ -160,7 +161,7 @@ html {
         display: none;
         top: 100%;
         left: 0px;
-        min-width: 160px;
+        min-width: 320px;
         position: absolute;
         background-color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -168,8 +169,9 @@ html {
 
         #nav .subnav a {
             color: #000;
-            padding: 0 12px;
-            line-height: 38px;
+            padding: 0 50px;
+            line-height: 50px;
+            
         }
 
     #nav .nav-arrow-down {
